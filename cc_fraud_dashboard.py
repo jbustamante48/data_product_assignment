@@ -8,7 +8,7 @@ import io
 import warnings
 warnings.filterwarnings('ignore')
 
-fraud_data = pd.read_csv("/Users/JP/Desktop/fraudTrain.csv")
+fraud_data = pd.read_csv("fraudTrain.csv")
 
 fraud_data = fraud_data.drop(['Unnamed: 0'], axis=1)
 
