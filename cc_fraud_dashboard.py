@@ -8,7 +8,8 @@ import io
 import warnings
 warnings.filterwarnings('ignore')
 
-fraud_data = pd.read_csv("fraudTrain.csv")
+# data import should be changed depending on the directory the file is located. 
+fraud_data = pd.read_csv("new_fraudTrain.csv")
 
 fraud_data = fraud_data.drop(['Unnamed: 0'], axis=1)
 
